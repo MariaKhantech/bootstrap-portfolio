@@ -5,11 +5,9 @@ body {
   img {
     height: 200px;
     width: 200px;
-    /* padding-top: 10px; */
     margin: 20px 20px 20px 20px; 
   }
-
+//*pads the top of the images**//
   #pad-top {
       padding-top: 20px;
   }
-  
