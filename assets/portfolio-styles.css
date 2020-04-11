@@ -20,7 +20,7 @@ background-color: white;
 color: white;
 font-family: 'Times New Roman';
 }
-
+/*for hr and Name in navbar*/
 #margin {
 padding-top: 0;
 padding-bottom: 0;
@@ -29,6 +29,7 @@ padding-bottom: 0;
   margin: 0;
   color: brown;
 }
+/*Adds some padding to Portfolio and gives it a text style*/
 .text-lg-center {
   font-family: 'Times New Roman';
   padding-top: 5px;
