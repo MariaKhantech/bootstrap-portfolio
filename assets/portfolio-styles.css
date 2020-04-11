@@ -15,12 +15,9 @@ img {
 #box {
 background-color: white;
 }
-/*changes plant-based families but needs to be fixed*/
+/*changes Maria Khan text color, background and font style*/
 #text-change {
 color: white;
-background-color:#20B2AA;
-padding: 10px;
-margin: 0;
 font-family: 'Times New Roman';
 }
 
@@ -38,3 +35,5 @@ padding-bottom: 0;
   color:#20B2AA;
 
 }
+
+
