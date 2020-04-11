@@ -1,0 +1,33 @@
+
+body {
+    background: #f4f0ec !important
+}
+
+#box {
+    background-color: white;
+    margin: 50px;
+     
+}
+
+.txstyle {
+    font-family: 'Times New Roman';
+    padding-top: 5px;
+    color:#20B2AA;
+}
+
+#text-change {
+    color: white;
+    background-color:#20B2AA;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+        
+#margin {
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+ .hr {
+    margin: 0;
+    color: brown;
+  }

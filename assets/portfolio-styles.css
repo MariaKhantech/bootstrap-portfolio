@@ -1,13 +1,40 @@
 body {
-    background: #ebd5b3 !important
-  }
-  
-  img {
-    height: 200px;
-    width: 200px;
-    margin: 20px 20px 20px 20px; 
-  }
-//*pads the top of the images**//
-  #pad-top {
-      padding-top: 20px;
-  }
+  background: #f4f0ec !important
+}
+ /*image size*/
+img {
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px 20px 20px; 
+}
+/*pads the top of the images*/
+#pad-top {
+    padding-top: 20px;}
+
+/*Changes container color*/
+#box {
+background-color: white;
+}
+/*changes plant-based families but needs to be fixed*/
+#text-change {
+color: white;
+background-color:#20B2AA;
+padding: 10px;
+margin: 0;
+font-family: 'Times New Roman';
+}
+
+#margin {
+padding-top: 0;
+padding-bottom: 0;
+}
+.hr {
+  margin: 0;
+  color: brown;
+}
+.text-lg-center {
+  font-family: 'Times New Roman';
+  padding-top: 5px;
+  color:#20B2AA;
+
+}

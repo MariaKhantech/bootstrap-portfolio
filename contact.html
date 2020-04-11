@@ -8,41 +8,57 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="asssets/contact-styles.css">
+    <link rel="stylesheet" href="assets/contact-styles.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Plant-based Kids</a>
+    <nav id="margin" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" id="text-change">Plant-based Kids</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="/Portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="/index.html">About Us</a>
+                <a class="nav-item nav-link" href="/aboutus.html">About Us</a>
                 <a class="nav-item nav-link" href="/contact.html">Contact Us</a>
             </div>
         </div>
     </nav>
+    <hr class="hr">
 
+    <!--changes the background to white and gives margins-->
+    <div class="container" id="box">
+        <div class="row ">
+            <div class="col-sm-10">
+                <h1 class="txstyle">Contact</h1>
+                <hr>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Email</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <!--makes the box larger for message box-->
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
 
-
-    <div class="container">
-        <div class="d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">About Us</div>
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
+                    <!--p-3 code changes color of submit button-->
+                    <button type="submit" class="p-3 mb-2 bg-info text-white btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -52,6 +68,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
