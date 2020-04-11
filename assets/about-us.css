@@ -1,4 +1,8 @@
-        
+*
+body{
+background: #f4f0ec !important  
+}
+
 #margin {
     padding-top: 0;
     padding-bottom: 0;
@@ -15,10 +19,24 @@
     margin: 0;
     color: brown;
   }
-
-  img {
+img {
 
         height: 300px;
         width: 300px;
        
   }
+.border {
+    padding: 20px;
+    margin: 20px;
+
+}
+
+img {
+  background-color: #48D1CC;
+}
+#box {
+    background-color: white;
+}
+.para {
+    padding-top: 10px;
+}

@@ -7,6 +7,21 @@ img {
   width: 200px;
   margin: 20px 20px 20px 20px; 
 }
+
+.thumbnail {
+  position: relative
+}
+
+.caption {
+  position: absolute;
+  Bottom: 15%;
+  width: 83%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align:center;
+  padding: 10px;
+}
 /*pads the top of the images*/
 #pad-top {
     padding-top: 20px;}
@@ -36,5 +51,7 @@ padding-bottom: 0;
   color:#20B2AA;
 
 }
+ @media screen and (max-width:640px){
 
+ }
 
