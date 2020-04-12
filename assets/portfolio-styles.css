@@ -11,7 +11,7 @@ img {
 .thumbnail {
   position: relative
 }
-
+/*creates strip across images*/
 .caption {
   position: absolute;
   Bottom: 15%;
@@ -22,24 +22,28 @@ img {
   text-align:center;
   padding: 10px;
 }
+
 /*pads the top of the images*/
 #pad-top {
-    padding-top: 20px;}
+  padding-top: 20px;}
 
 /*Changes container color*/
 #box {
-background-color: white;
+  background-color: white;
 }
+
 /*changes Maria Khan text color, background and font style*/
 #text-change {
-color: white;
-font-family: 'Times New Roman';
+  color: white;
+  font-family: 'Times New Roman';
 }
+
 /*for hr and Name in navbar*/
 #margin {
-padding-top: 0;
-padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
 .hr {
   margin: 0;
   color: brown;

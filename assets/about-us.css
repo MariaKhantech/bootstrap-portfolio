@@ -1,14 +1,15 @@
 *
 body{
-background: #f4f0ec !important  
+    background: #f4f0ec !important  
 }
 
+/*fixes the navbar*/
 #margin {
     padding-top: 0;
     padding-bottom: 0;
  }
 
- #text-change {
+#text-change {
     color: white;
     background-color:#20B2AA;
     padding: 10px;
@@ -19,12 +20,14 @@ background: #f4f0ec !important
     margin: 0;
     color: brown;
   }
-img {
+  img {
 
-        height: 300px;
-        width: 300px;
+    height: 300px;
+    width: 300px;
        
   }
+
+/*adjusts the about us box size*/
 .border {
     padding: 20px;
     margin: 20px;
@@ -32,11 +35,13 @@ img {
 }
 
 img {
-  background-color: #48D1CC;
+    background-color: #48D1CC;
 }
+
 #box {
     background-color: white;
 }
+
 .para {
     padding-top: 10px;
 }
