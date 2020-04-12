@@ -6,7 +6,7 @@ This website illustrates the use of developing a responsive website using Bootst
 
 ![Portfolio](https://user-images.githubusercontent.com/61640527/79057895-82091b80-7c34-11ea-8a3e-1a62d0b8dbd9.PNG)
 
-![contact](https://user-images.githubusercontent.com/61640527/79057894-76b5f000-7c34-11ea-8950-9f1babe11816.PNG)
+![contact](https://user-images.githubusercontent.com/61640527/79057944-0a87bc00-7c35-11ea-969d-7ed242407206.PNG)
 
 
 
