@@ -51,7 +51,10 @@ padding-bottom: 0;
   color:#20B2AA;
 
 }
- @media screen and (max-width:640px){
-
+ 
+@media (max-width: 767px) {
+ .col {
+   width: 50%;
+   margin: 0 auto;
  }
-
+}
