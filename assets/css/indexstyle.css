@@ -1,77 +1,74 @@
-*
-body {
-    background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/best-background-images-for-professional-websites-5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: 100vh;
-  }
-  
-/*fixes the navbar*/
-#margin {
-    padding-top: 0;
-    padding-bottom: 0;
- }
-
-#text-change {
-    color: black;
-    background-color:white;
-    padding: 10px;
-    margin: 0;
-    font-family: 'Times New Roman';
+* body {
+	background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/best-background-images-for-professional-websites-5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 100vh;
 }
-.hr {
-    margin: 0;
-    color: brown;
-  }
-  img {
 
-    height: 300px;
-    width: 300px;
-       
-  }
+/*put white background around container*/
+#box {
+	background-color: white;
+	margin-top: 5%;
+	max-width: 50% !important;
+}
+
+/*styles nav logo*/
+#text-change {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+}
+
+/*styles navbar links*/
+#text-style {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 115% !important;
+}
+
+.hr {
+	margin: 0;
+	color: brown;
+}
+img {
+	height: 300px;
+	width: 300px;
+}
 
 /*adjusts the about us box size*/
 .border {
-    padding-left: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 0px;
-    margin: 20px;
-border:none !important;
-}
-
-img {
-    background-color: darkgray;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 20px;
 }
 
 h5 {
-    margin-top: 40px !important;
-    margin-left: 20px
+	margin-top: 40px !important;
+	margin-left: 20px;
 }
 
-
 .para {
-    padding-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+	padding-top: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 767px) {
-    h5 {
-        margin:0px !important;
-    }
-    body {
-        background: cover;
-        height: 100%;
-    }
-    .para {
-        background:white;
-        padding: 10px !important;
-        font-weight: bold;
-    }
-    img {
-     width: 40% !important;
-     height: auto;
-    }
+	h5 {
+		margin: 0px !important;
+	}
+	body {
+		background: cover;
+		height: 100%;
+	}
+	.para {
+		background: white;
+		padding: 10px !important;
+		font-weight: bold;
+	}
+	img {
+		width: 40% !important;
+		height: auto;
+	}
 }

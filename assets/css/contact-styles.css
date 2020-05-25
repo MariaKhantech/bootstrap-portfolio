@@ -1,42 +1,40 @@
-
 body {
-        background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/best-background-images-for-professional-websites-5.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-        height: 100vh;
+	background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/best-background-images-for-professional-websites-5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 100vh;
 }
 /*fixes the navbar*/
 #margin {
-    padding-top: 0;
-    padding-bottom: 0;
- 
- }
-
+	padding-top: 0;
+	padding-bottom: 0;
+}
 
 /*changes contact box background to white*/
 #box {
-    background-color: white;
-    margin-top:  10%;
-    max-width: 50% !important;
-     
+	background-color: white;
+	margin-top: 10%;
+	max-width: 50% !important;
 }
 
-.txstyle {
-    font-family: 'Times New Roman';
+#text-style {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 115% !important;
 }
-
+/*styles nav logo*/
 #text-change {
-    padding: 10px;
-    margin: 0;
-    font-family: 'Times New Roman';
-}   
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+}
 
- .hr {
-    margin: 0;
-    color: brown;
-  } 
+.hr {
+	margin: 0;
+	color: brown;
+}
 
-  #box-size {
-      width: 50% !important;
-  }
+#box-size {
+	width: 50% !important;
+}
