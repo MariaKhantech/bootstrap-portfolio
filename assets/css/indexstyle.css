@@ -5,6 +5,12 @@
 	background-position: top;
 	height: 100vh;
 }
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
 
 /*put white background around container*/
 #box {

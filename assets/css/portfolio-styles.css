@@ -18,9 +18,10 @@ body {
 
 /* plugin css http://ariona.github.io/hover3d/index.html*/
 .project {
-	width: 100%;
+	width: 95%;
 	float: left;
 	margin-right: 5%;
+	margin-bottom: 5%;
 }
 
 .project__image {
@@ -154,7 +155,7 @@ div.shine {
 .container-fluid {
 	margin-top: 5%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
 	.col-sm-12 {
 		margin: 5%;
 	}

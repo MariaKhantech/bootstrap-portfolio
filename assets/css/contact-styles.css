@@ -5,6 +5,12 @@ body {
 	background-position: top;
 	height: 100vh;
 }
+/*fixes graffiti image*/
+/* .center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} */
 /*fixes the navbar*/
 #margin {
 	padding-top: 0;
