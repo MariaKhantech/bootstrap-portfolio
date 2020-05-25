@@ -10,13 +10,14 @@ body {
 #margin {
     padding-top: 0;
     padding-bottom: 0;
+ 
  }
 
 
 /*changes contact box background to white*/
 #box {
     background-color: white;
-    margin-top:  100px;
+    margin-top:  10%;
     max-width: 50% !important;
      
 }
@@ -26,8 +27,6 @@ body {
 }
 
 #text-change {
-    color: black;
-    background-color:white;
     padding: 10px;
     margin: 0;
     font-family: 'Times New Roman';

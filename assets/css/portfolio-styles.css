@@ -156,5 +156,9 @@ div.shine {
   
    margin: 5%;
  }
+ body {
+  background: cover;
+  height: 100%;
+}
 }
 
