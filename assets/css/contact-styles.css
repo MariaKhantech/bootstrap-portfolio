@@ -1,12 +1,23 @@
 
 body {
-    background: #f4f0ec !important
+        background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/best-background-images-for-professional-websites-5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 100vh;
 }
+/*fixes the navbar*/
+#margin {
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+
 
 /*changes contact box background to white*/
 #box {
     background-color: white;
-    margin-top:  50px;
+    margin-top:  100px;
+    max-width: 50% !important;
      
 }
 
@@ -15,14 +26,18 @@ body {
 }
 
 #text-change {
+    color: black;
+    background-color:white;
+    padding: 10px;
+    margin: 0;
     font-family: 'Times New Roman';
-} 
-        
- #margin {
-    padding-top: 0;
-    padding-bottom: 0;
- }
+}   
+
  .hr {
     margin: 0;
     color: brown;
   } 
+
+  #box-size {
+      width: 50% !important;
+  }

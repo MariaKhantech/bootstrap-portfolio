@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <nav id="margin" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand p-3 bg-info text-white" href="" id="text-change">Maria Khan</a>
+    <nav id="margin" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand p-3 text-light text-dark" href="" id="text-change">Maria Khan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,37 +28,51 @@
             </div>
         </div>
     </nav>
+
     <hr class="hr">
 
     <!--changes the background to white and gives margins-->
     <div class="container" id="box">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 lg-4" id="box-size">
                 <!--adds text style-->
-                <h1 class="txstyle text-info">Contact</h1>
+                <h1 class="txstyle text-info  text-center ">Contact</h1>
                 <hr>
-
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <!--makes the box larger for message box-->
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                    </div>
-                </form>
             </div>
         </div>
 
-        <!--p-3 code changes color of submit button-->
-        <button type="submit" class=" mb-2 bg-info text-white btn ">Submit</button>
+        <div class = row>
+            <div class = col>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Name</label>
+                          <input type="name" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Email</label>
+                          <input type="Email" class="form-control" id="inputPassword4">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">Subject:</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                      </div>
+
+                      <div class=" text-center"> 
+                        <button type="submit" class="btn btn-primary btn-lg mb-2 bg-info text-white btn ">Submit</button>
+                      </div>
+                      
+                  </form>
+            </div>
+
+        </div>
+               
     </div>
 
 
