@@ -19,4 +19,4 @@ This web application was created as my Portfolio. You may find an about me page,
 
 #### * Maria Khan
 
-https://github.com/MariaKhantech/bootstrap-portfolio
+https://mariakhantech.github.io/bootstrap-portfolio/
