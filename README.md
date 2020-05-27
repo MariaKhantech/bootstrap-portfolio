@@ -12,8 +12,7 @@ This web application was created as my Portfolio. You may find an about me page,
 
 ### Demo:
 
-![portfolio](https://user-images.githubusercontent.com/61640527/82965347-d7f01380-9f95-11ea-9291-bd322cbc6fd0.gif)
-
+![portfolio](https://user-images.githubusercontent.com/61640527/82965612-914ee900-9f96-11ea-9829-15d03a5d1f88.gif)
 
 ***
 ## Authors
